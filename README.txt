@@ -1,5 +1,8 @@
 To deploy this on CloudBees, follow those steps:
 
+Create application:
+	bees app:create MYAPP_ID
+
 Create database:
 	bees db:create -u DB_USER -p DB_PASSWORD DBNAME
 
