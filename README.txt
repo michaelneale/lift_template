@@ -12,6 +12,5 @@ Bind database as datasource:
 Create a new maven project in Jenkins, changing the following:
 	- Add this git repository (or yours with this code) on Jenkins
 	- Also check "Deploy to CloudBees" with those parameters:
-		CloudBees Site: USERNAME
-		Application Id: USERNAME/APP_NAME
+		Application Id: MYAPP_ID
 		Filename Pattern: target/*.war

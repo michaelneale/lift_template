@@ -1,7 +1,7 @@
 {
     "id": "lift-template",
     "name": "Lift 2.4 Implementation",
-    "source": "https://github.com/bsavoy/lift_template.git",
+    "source": "git://github.com/benjaminsavoy/lift_template.git",
     "runtime": {
         "type": "jboss"
     },
