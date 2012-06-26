@@ -3,7 +3,7 @@
     "name": "Lift 2.4 Implementation",
     "source": "git://github.com/benjaminsavoy/lift_template.git",
     "runtime": {
-        "type": "jboss"
+        "type": "tomcat"
     },
     "databases": [
         {
@@ -15,8 +15,8 @@
         "template": {
             "type": "maven",
             "options": {
-		"deploy": "target/*.war"
             }
+            "deploy": "target/*.war"
         }
     }
 }

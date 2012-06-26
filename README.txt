@@ -14,3 +14,8 @@ Create a new maven project in Jenkins, changing the following:
 	- Also check "Deploy to CloudBees" with those parameters:
 		Application Id: MYAPP_ID
 		Filename Pattern: target/*.war
+
+To build this locally:
+
+In the lift_template directory, open a command line, and invoke maven by typing "mvn package" to build the war file, then deploy it on cloudbees typing:
+	bees app:deploy -a MYAPP_ID target/*.war
