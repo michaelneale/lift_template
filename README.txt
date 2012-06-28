@@ -19,3 +19,16 @@ To build this locally:
 
 In the lift_template directory, open a command line, and invoke maven by typing "mvn package" to build the war file, then deploy it on cloudbees typing:
 	bees app:deploy -a MYAPP_ID target/*.war
+
+To run this locally:
+
+Modify the scala/bootstrap/liftweb/Boot.scala file by commenting the following line:
+	DefaultConnectionIdentifier.jndiName = "jdbc/LiftDB"
+And uncommenting the following:
+	val vendor = new StandardDBVendor(Props.get("db.driver") openOr "org.h2.Driver", 
+    Props.get("db.url") openOr "jdbc:h2:lift_proto.db;AUTO_SERVER=TRUE",
+    Props.get("db.user"), Props.get("db.password"))
+    LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
+    DB.defineConnectionManager(DefaultConnectionIdentifier, vendor)
+
+Then finally build with maven typing "mvn package" in the project directory, and then deploy in your favorite container.

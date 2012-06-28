@@ -19,7 +19,17 @@ import code.model._
  */
 class Boot {
   def boot {
+    // Datasource configuration
     DefaultConnectionIdentifier.jndiName = "jdbc/LiftDB"
+
+    // Basic local DB configuration
+    /*
+    val vendor = new StandardDBVendor(Props.get("db.driver") openOr "org.h2.Driver", 
+    Props.get("db.url") openOr "jdbc:h2:lift_proto.db;AUTO_SERVER=TRUE",
+    Props.get("db.user"), Props.get("db.password"))
+    LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
+    DB.defineConnectionManager(DefaultConnectionIdentifier, vendor)
+    */
 
     // Use Lift's Mapper ORM to populate the database
     // you don't need to use Mapper to use Lift... use
