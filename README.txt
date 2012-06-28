@@ -31,4 +31,4 @@ And uncommenting the following:
     LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
     DB.defineConnectionManager(DefaultConnectionIdentifier, vendor)
 
-Then finally build with maven typing "mvn package" in the project directory, and then deploy in your favorite container.
+Then finally run with jetty type "sbt update ~jetty-run" in the project directory, and then browse to localhost:8080
