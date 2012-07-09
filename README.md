@@ -18,6 +18,7 @@ Create a new maven project in Jenkins, changing the following:
 * Add this git repository (or yours with this code) on Jenkins
 * Also check "Deploy to CloudBees" with those parameters:
 
+        Applications: First Match
         Application Id: MYAPP_ID
         Filename Pattern: target/*.war
 
@@ -29,7 +30,7 @@ In the lift_template directory, open a command line, and invoke maven by typing 
 
 ## To run this locally:
 
-Modify the scala/bootstrap/liftweb/Boot.scala file by commenting the following line:
+Modify the src/main/scala/bootstrap/liftweb/Boot.scala file by commenting the following line:
 
     DefaultConnectionIdentifier.jndiName = "jdbc/LiftDB"
 
