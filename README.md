@@ -1,4 +1,5 @@
-To deploy this on CloudBees, follow those steps:
+# Lift Template for CloudBees.
+## To deploy this on CloudBees, follow those steps:
 
 Create application:
 
@@ -18,13 +19,13 @@ Create a new maven project in Jenkins, changing the following:
         Application Id: MYAPP_ID
         Filename Pattern: target/*.war
 
-To build this locally:
+## To build this locally:
 
 In the lift_template directory, open a command line, and invoke maven by typing "mvn package" to build the war file, then deploy it on cloudbees typing:
 	
     bees app:deploy -a MYAPP_ID target/*.war
 
-To run this locally:
+## To run this locally:
 
 Modify the scala/bootstrap/liftweb/Boot.scala file by commenting the following line:
 
