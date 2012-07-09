@@ -7,10 +7,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cloudbees.templates</groupId>
   <artifactId>lift-cloudbees-template</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>war</packaging>
   <name>A Simple Lift Webapp for CloudBees</name>
-  <inceptionYear>2010</inceptionYear>
+  <inceptionYear>2012</inceptionYear>
   <properties>
     <scala.version>2.9.2</scala.version>
   </properties>

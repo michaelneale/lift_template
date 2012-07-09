@@ -1,6 +1,6 @@
 {
-    "id": "lift-template",
-    "name": "Lift 2.4 Implementation",
+    "id": "lift_template",
+    "name": "Lift 2.4 Template for CloudBees",
     "source": "git://github.com/benjaminsavoy/lift_template.git",
     "runtime": {
         "type": "tomcat"
