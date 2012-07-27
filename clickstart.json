@@ -15,8 +15,7 @@
         "template": {
             "type": "maven",
             "options": {
-            }
-            "deploy": "target/*.war"
+            }            
         }
     }
 }
