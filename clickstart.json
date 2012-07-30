@@ -1,7 +1,8 @@
 {
     "id": "lift_template",
     "name": "Lift 2.4 Template for CloudBees",
-    "source": "git://github.com/benjaminsavoy/lift_template.git",
+    "source": "git://github.com/CloudBees-community/lift_template.git",
+    "description" : "Lift is a highly scalable framework for web apps in scala",
     "runtime": {
         "type": "tomcat"
     },
@@ -15,8 +16,7 @@
         "template": {
             "type": "maven",
             "options": {
-            }
-            "deploy": "target/*.war"
+            }            
         }
     }
 }
