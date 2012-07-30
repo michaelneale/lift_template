@@ -1,7 +1,7 @@
 {
     "id": "lift_template",
     "name": "Lift 2.4 Template for CloudBees",
-    "source": "git://github.com/cloudbees-clickstarts/lift_template.git",
+    "source": "git://github.com/CloudBees-community/lift_template.git",
     "runtime": {
         "type": "tomcat"
     },
