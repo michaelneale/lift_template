@@ -1,5 +1,27 @@
-# Lift Template for CloudBees.
-## To deploy this on CloudBees, follow those steps:
+# Scala and Lift clickstart.
+
+<img src="http://upload.wikimedia.org/wikipedia/commons/b/b7/Lift-logo.jpg"/>
+
+The [Lift Framework](http://www.liftweb.net/) is a popular web framework for the [Scala](http://scala-lang.org) Programming language. 
+It is known for being very secure out of the box (notably so for preventing XSS flaws), scalable, and mature. 
+It is handy for ajax/comet applications, and is "full stack" (ie comes with pretty much everything you need, including ORM). Lift is in use by some large public sites such as [Foursquare](http://www.foursquare.com). 
+
+<img src="http://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png"/>
+
+This Clickstart bootstraps you with a working lift web application, a database, a source repository 
+(populated, ready to go), a Jenkins build service running continuous deployment from the source repository
+(push a change, your project will be built and deployed). 
+
+You can use this as a starting point for your own lift application 
+(remember the source repository will be private to your account). 
+
+Click here to launch deploy this right now.
+
+Feel free to fork and make this your own - pull requests welcome !
+
+
+
+## Manual steps for deploying on cloudbees:
 
 Create application:
 
