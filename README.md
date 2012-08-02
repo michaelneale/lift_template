@@ -17,6 +17,8 @@ You can use this as a starting point for your own lift application
 
 Click here to launch deploy this right now.
 
+Feel free to fork and make this your own - pull requests welcome !
+
 
 
 ## Manual steps for deploying on cloudbees:
