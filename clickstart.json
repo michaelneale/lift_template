@@ -2,7 +2,7 @@
     "id": "lift_template",
     "name": "Scala and Lift",
     "source": "git://github.com/CloudBees-community/lift_template.git",
-    "description" : "Lift is a highly scalable framework for web apps in scala.",
+    "description" : "Lift is a powerful, secure framework for building highly interactive, scalable web applications using Scala",
     "doc-url" : "https://github.com/CloudBees-community/lift_template/blob/master/README.md",
     "icon" : "https://raw.github.com/CloudBees-community/lift_template/master/icon.png",
     "runtime": {
