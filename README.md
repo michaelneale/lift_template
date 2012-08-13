@@ -1,4 +1,4 @@
-# Scala and Lift clickstart.
+# Scala and Lift ClickStart.
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/b/b7/Lift-logo.jpg"/>
 
@@ -8,20 +8,20 @@ It is handy for ajax/comet applications, and is "full stack" (ie comes with pret
 
 <img src="http://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png"/>
 
-This Clickstart bootstraps you with a working lift web application, a database, a source repository 
+This ClickStart bootstraps you with a working lift web application, a database, a source repository 
 (populated, ready to go), a Jenkins build service running continuous deployment from the source repository
 (push a change, your project will be built and deployed). 
 
 You can use this as a starting point for your own lift application 
 (remember the source repository will be private to your account). 
 
-Click here to launch deploy this right now.
+Click here to launch this right now.
 
 Feel free to fork and make this your own - pull requests welcome !
 
 
 
-## Manual steps for deploying on cloudbees:
+## Manual steps for deploying on CloudBees:
 
 Create application:
 
