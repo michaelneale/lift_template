@@ -1,3 +1,5 @@
+<a href="https://grandcentral.cloudbees.com/#CB_clickstart=https://raw.github.com/CloudBees-community/lift_template/master/clickstart.json"><img src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
+
 # Scala and Lift ClickStart.
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/b/b7/Lift-logo.jpg"/>
@@ -8,7 +10,6 @@ It is handy for ajax/comet applications, and is "full stack" (ie comes with pret
 
 <img src="http://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png"/>
 
-<a href="https://grandcentral.cloudbees.com/#CB_clickstart=https://raw.github.com/CloudBees-community/lift_template/master/clickstart.json"><img src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
 
 This ClickStart bootstraps you with a working lift web application, a database, a source repository 
 (populated, ready to go), a Jenkins build service running continuous deployment from the source repository
