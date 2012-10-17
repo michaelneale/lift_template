@@ -1,7 +1,7 @@
 {
     "id": "lift_template",
     "name": "Scala and Lift",
-    "source": "git://github.com/CloudBees-community/lift_template.git",
+    "source": "github",
     "description" : "A powerful, secure framework for interactive, scalable web applications",
     "doc-url" : "https://github.com/CloudBees-community/lift_template/blob/master/README.md",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/lift_icon.png",
