@@ -1,5 +1,7 @@
 <a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/lift_template/master/clickstart.json"><img src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/542781f0-b6d7-46f3-8447-0b4e99fe3421.svg?orgId=451115019187)](https://app.soluble.cloud/repos/details/github.com/michaelneale/lift_template?orgId=451115019187)  
+
 # Scala and Lift ClickStart.
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/b/b7/Lift-logo.jpg"/>
